@@ -1,0 +1,229 @@
+/* what we do */
+
+section#our-work{
+    width: 100%;
+    margin: 0;
+}
+div.our-work-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 0;
+}
+section#our-work p{
+    margin: 0 0 20px;
+    font-size: 16px;
+}
+
+p.page-path{
+    text-align: left;
+    width: 100%;
+    color: #979797;
+    font-size: 18px !important;
+    margin: 0;
+}
+p.page-path i {
+    margin: 0 10px;
+}
+
+span.current-page{
+    color: #1668b2;
+}
+h1.our-work-title{
+    margin: 60px 0 40px;
+    color: #1668B2;
+}
+div.work-list{
+    width: 70%;
+    margin: 40px 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+div.work-card{
+    width: 22%;
+    text-align: center;
+}
+div.work-card img{
+    width: 45px;
+    margin: 0 0 20px;
+}
+div.work-card p{
+    font-size: 21px;
+}
+
+/* what we do */
+
+/* how we do */
+section#how-we-do{
+    width: 100%;
+    background: #fff;
+    padding: 0 0 50px;
+}
+div.how-we-do{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+div.processes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin: 40px 0 0 ;
+}
+div.process-card{
+    width: 32%;
+    text-align: center;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 6px;
+    background-position: center center;
+    background-size: 100%;
+    position: relative;
+    padding: 0;
+}
+div.process-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.process-card-content{
+    position: absolute;
+    top: 48%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    padding: 50% 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.6s;
+}
+div.process-card:hover div.process-card-content{
+    top: 0;
+    background: rgba(22, 104, 178, 0.6);
+    
+}
+p.number{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background: #1668B2;
+}
+p.process-title{
+    font-size: 36px;
+    font-weight: 500;
+}
+div.process-card:hover p.number{
+    background: rgba(22, 104, 178, 0.6);
+}
+/* how we do */
+
+
+/* what you get */
+section#what-you-get{
+    width: 100%;
+    padding: 50px 0;
+}
+div.benefit{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+div.benefit h1.title{
+    color: #1668B2;
+}
+div.benefit-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+div.benefit-card{
+    width: 49%;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 40px;
+}
+div.benefit-card hr{
+    border-top: 1px solid #1668B2;
+    width: 125px;
+    margin: 20px 0;
+    opacity: 1;
+}
+p.benefit-title{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0 0 32px;
+}
+div.benefit-image{
+    padding: 0;
+    position: relative;
+}
+div.benefit-card img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+div.benefit-right-image{
+    order: 1;
+}
+
+
+/* what you get */
+
+/* contact */
+section#contact{
+    background: url(./assets/service/contact-bg.jpeg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 0 60px;
+}
+div.contact{
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+div.contact h1{
+    color: #0cd4ef;
+    margin: 0 0 40px;
+    font-weight: bold;
+}
+div.contact button{
+    color: #1668b2;
+    border: 1px solid #1668b2;
+    font-weight: 500;
+    background: #FFF;
+    transition: 0.5s;
+}
+div.contact button:hover{
+    color: #fff;
+    background-color: #1668b2;
+}
+/* contact */
