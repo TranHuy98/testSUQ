@@ -225,5 +225,6 @@ div.contact button{
 div.contact button:hover{
     color: #fff;
     background-color: #1668b2;
+    cursor: pointer;
 }
 /* contact */
